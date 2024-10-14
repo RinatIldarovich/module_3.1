@@ -18,7 +18,6 @@ print(string_info('Armageddon'))
 
 def is_contains(string, list_to_search):    # 4
     string = string.lower()
-    list_to_search = list(list_to_search)
     count_calls()
     for i in range(len(list_to_search)):
         if str(list_to_search[i]).lower() == string:
